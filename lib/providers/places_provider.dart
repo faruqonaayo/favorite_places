@@ -2,10 +2,10 @@ import 'package:favorite_places/models/place.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class PlacesNotifier extends StateNotifier<List<Place>> {
-  PlacesNotifier() : super([]);
+  PlacesNotifier() : super(const []);
 
   void addNewPlace(Place newPlace) {
-    state = [...state, newPlace];
+    state = [newPlace, ...state];
   }
 }
 

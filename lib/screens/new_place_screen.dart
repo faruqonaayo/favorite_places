@@ -36,7 +36,7 @@ class _NewPlaceScreenState extends ConsumerState<NewPlaceScreen> {
             children: [
               TextFormField(
                 decoration: InputDecoration(label: Text("Title")),
-                style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                   color: Theme.of(context).colorScheme.onSurface,
                 ),
                 validator: (value) {

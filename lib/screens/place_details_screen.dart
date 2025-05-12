@@ -12,7 +12,7 @@ class PlaceDetailsScreen extends StatelessWidget {
       body: Center(
         child: Text(
           place.title,
-          style: Theme.of(context).textTheme.bodySmall!.copyWith(
+          style: Theme.of(context).textTheme.bodyLarge!.copyWith(
             color: Theme.of(context).colorScheme.onSurface,
           ),
         ),
